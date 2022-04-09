@@ -103,6 +103,9 @@ img{
     color: var(--main-black);
     text-decoration: none;
     }
+.navigation-list-item:not(:last-child){
+    margin-right: 46px;
+}
 
 
 .navigation-list-link:hover,
@@ -149,6 +152,10 @@ img{
 .hero {background-color: var(--color-backgroudn);
        padding-top: 200px;
        padding-bottom: 210px;
+       background-image: url("/goit-markup-hw-04/images/backgroundfoto.jpg");
+       background-size: 1600px 600px;
+       background-position: center;
+       background-repeat: no-repeat;
 }
 .hero .container {
     text-align: center;
