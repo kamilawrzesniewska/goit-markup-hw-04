@@ -144,6 +144,16 @@ img{
 .address-phone:focus {
     color: var(--main-color);
 }
+.mail-icon {
+    margin-right: 10px;
+    fill: var(--main-grey);
+}
+.phone-icon{
+    margin-right: 10px;
+    fill: var(--main-grey); 
+}
+
+
 
 /* END HEADER */
  
@@ -226,6 +236,11 @@ img{
     color: var(--main-grey);
 }
 
+.agency-icon {
+    background-color: var(--btn-backround);
+    margin-bottom: 30px;    
+}
+
 
 /* end agencja*/
 /*portfolio*/
@@ -296,9 +311,11 @@ img{
     justify-content: center;
 }
 
-.contact-list-socialmedia:hover,
-.contact-list-socialmedia:focus {
-    fill: var(--main-color); 
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--white);
+    border-radius: 50%;
+    background-color: var(--main-color);
 }
 
 
