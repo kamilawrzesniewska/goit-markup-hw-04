@@ -71,9 +71,9 @@ img{
     margin-right: 46px;
 }
  
-.logo{
-    margin-right: 46px;
-}
+/*.logo{
+    margin-right: 1px;
+} */
 
 
 .logo{ color: var(--main-black);
@@ -117,7 +117,8 @@ img{
     margin-left: auto;
     margin-right: 50px;
 }
-.address {margin-bottom: 32px;}
+.address {margin-bottom: 20px;
+}
 
 .address-mail {
     margin-right: 41px ;
@@ -153,6 +154,15 @@ img{
     fill: var(--main-grey); 
 }
 
+.mail-icon:hover,
+.mail-icon:focus {
+    fill: var(--main-color);
+}
+
+.phone-icon:hover,
+.phone-icon:focus {
+    fill: var(--main-color);}
+
 
 
 /* END HEADER */
@@ -162,7 +172,7 @@ img{
 /* hero*/
 .hero {background-color: var(--color-backgroudn);
        padding-top: 200px;
-       padding-bottom: 210px;
+       padding-bottom: 190px;
        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
        url("/goit-markup-hw-04/images/backgroundfoto.jpg");
        background-size: 1600px 600px;
@@ -293,19 +303,25 @@ img{
    display: flex; 
    list-style: none;
    align-items: center;
-   justify-content: space-between;
    background-color: var(--white);
+   margin-bottom: 30px;
+   margin-top: 16px;
+   justify-content: space-between;
+   margin-right: 30px;
+   margin-left: 30px;
+
 }
+/*.contact-list-socialmedia:not(:last-child){
+    margin-right: 20px;
+}*/
 
 .social-icon {
-    width: 20px;
-    height: 20px;
     fill: var(--link-color);
 }
 .socialmedia-link {
     display: flex;
     width: 44px;
-    height: 44px;
+    height: 44px; 
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -424,8 +440,12 @@ padding-bottom: 60px;}
 .right-icons:not(:last-child){
     margin-right: 10px;
 }
-.right-footer{
+/*.right-footer{
     padding-top: 72px;
+    display: inline-block;
+}*/
+.right-footer{
+    display: inline-block;
 }
 
 .right-icons-link{
@@ -449,11 +469,6 @@ padding-bottom: 60px;}
     font-size: 14px;
     font-style: normal;
     letter-spacing: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 20px;
 } 
 
 
@@ -551,4 +566,11 @@ justify-content: center;
     border-right: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 } 
+
+.porfolio-wrapper:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    1px 4px 4px rgba(0,0,0,0.06),
+    1px 4px 6px rgba(0,0,0, 0.16);
+    cursor: pointer;    
+}
     
