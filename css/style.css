@@ -345,6 +345,37 @@ img{
 }
 
 /*end kontakt*/
+
+/*NASI KLENCI*/
+ .clients-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-list-items:not(:last-child){
+    margin-right: 30px;
+}
+
+.clients{
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+.clients-link{
+    display: flex;
+    border: 1px solid var(--link-color);
+    border-radius: 4px;
+    fill: var(--link-color); 
+    padding: 15px 32px   
+}
+.clients-link:hover,
+.clients-link:focus{
+    fill: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/*END NASI KLENCI*/
 /* END MAIN */
 .endpage{background-color: var(--color-backgroudn);
 padding-top: 60px;
@@ -382,6 +413,49 @@ padding-bottom: 60px;}
      color: var(--main-color);
      text-decoration: none;
 }
+
+.right-icon-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-icons:not(:last-child){
+    margin-right: 10px;
+}
+.right-footer{
+    padding-top: 72px;
+}
+
+.right-icons-link{
+   display: flex;
+   padding: 12px;
+   border-radius: 50%;
+   fill: var(--white);
+   background-color: rgba(255,255,255,0.1);
+}
+
+.right-icons-link:hover,
+.right-icons-link:focus {
+    fill: var(--white);
+    background-color: var(--main-color);
+}
+
+.right-header{
+    color: var(--white);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+} 
+
 
 /*porfolio*/
 
