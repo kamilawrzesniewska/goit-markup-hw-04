@@ -568,6 +568,7 @@ justify-content: center;
     1px 4px 4px rgba(0,0,0,0.06),
     1px 4px 6px rgba(0,0,0, 0.16);
 }
+
 .main-list{
     list-style: none;
     display: flex;
