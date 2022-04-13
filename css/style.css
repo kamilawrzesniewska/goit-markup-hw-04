@@ -248,7 +248,10 @@ img{
 
 .agency-icon {
     background-color: var(--btn-backround);
-    margin-bottom: 30px;    
+    margin-bottom: 30px; 
+    width: 270px;   
+    height: 120px;
+    padding: 25px;
 }
 
 
